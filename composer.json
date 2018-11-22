@@ -1,0 +1,40 @@
+{
+  "name": "entanet/pub-sub-laravel",
+  "description": "Wrapper for laravel events so that an event can be published without using a listener and a subscriber command ",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/Entanet/pubsublaravel",
+  "support": {
+    "issues": "https://github.com/Entanet/pubsublaravel/issues",
+    "source": "https://github.com/Entanet/pubsublaravel"
+  },
+  "require": {
+    "php": ">=7.2.0",
+    "illuminate/support": "^5.6",
+    "superbalist/laravel-pubsub": "^3.0",
+    "superbalist/php-pubsub-kafka": "^2.0"
+  },
+  "authors": [
+    {
+      "name": "Mark Jones",
+      "email": "mark.jones@enta.net"
+    },
+    {
+      "name": "Tom Lloyd",
+      "email": "tomos.lloyd@enta.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Entanet\\PubSub\\": "src/",
+      "Entanet\\PubSub2Listener\\": "src/",
+      "Tests\\": "tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Entanet/pubsubevent"
+    }
+  ]
+}
