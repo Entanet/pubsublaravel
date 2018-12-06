@@ -6,7 +6,7 @@
  * Time: 14:57
  */
 
-namespace Entanet\PubSubEvent;
+namespace Entanet\PubSubLaravel;
 
 use Illuminate\Support\Facades\Event;
 

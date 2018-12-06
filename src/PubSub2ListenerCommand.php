@@ -1,6 +1,6 @@
 <?php
 
-namespace Entanet\PubSub2Listener;
+namespace Entanet\PubSubLaravel;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Event;
