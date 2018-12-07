@@ -8,7 +8,6 @@
 
 namespace Entanet\PubSubLaravel;
 
-use Entanet\PubSubEvent\PubSubEvent;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
 
