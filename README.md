@@ -140,7 +140,7 @@ If you overridden the global helper:
     event(new \App\Events\PubEvent($data), 'topic_name');
 ```
 
-### Setting up a PubSub2ListenerCommand to listen to a topic
+### Using a PubSub2ListenerCommand to listen to a topic
 
 run the following artisan command appended with the topic name, in this instance the topic is test_topic:
 
