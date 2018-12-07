@@ -1,4 +1,4 @@
-# Pub Sub Event
+# Pub Sub Laravel
 
 Pub-sub-laravel streamlines using the pub-sub pattern in Laravel. It's based on 
 [superbalist/laravel-pubsub](https://github.com/Superbalist/laravel-pubsub).
