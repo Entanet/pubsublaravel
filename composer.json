@@ -26,15 +26,14 @@
   ],
   "autoload": {
     "psr-4": {
-      "Entanet\\PubSub\\": "src/",
-      "Entanet\\PubSub2Listener\\": "src/",
+      "Entanet\\PubSubLaravel\\": "src/",
       "Tests\\": "tests/"
     }
   },
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/Entanet/pubsubevent"
+      "url": "https://github.com/Entanet/pubsublaravel"
     }
   ]
 }
