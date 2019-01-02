@@ -147,3 +147,22 @@ run the following artisan command appended with the topic name, in this instance
 ```
     php artisan pubsub:consumer test_topic
 ```
+
+### Using PubSubTest
+
+PubSubTest sets a mock of the PubSubInterface for you to use in your unit tests and also includes a handy invokeMethod
+ which can be used to test protected/private functions. So If you had a privateMethod method in a TricksyClass you'd do something like this:
+ 
+ ```
+    $tricksyInstance = new TricksyClass();
+    $response = $this->invokeMethod($tricksyInstance, 'privateMethod');
+ ```
+ 
+ If it took two variables $var1 and $var2:
+ 
+ ```
+     $var1 = 5;
+     $var2 = 'Impossible!';
+     $tricksyInstance = new TricksyClass();
+     $response = $this->invokeMethod($tricksyInstance, 'privateMethod', [$var1, $var2]);
+  ```
