@@ -9,9 +9,6 @@
 namespace Entanet\PubSubLaravel;
 
 
-namespace Tests;
-
-
 use ReflectionClass;
 
 class PubSubTestCase extends \Tests\TestCase
