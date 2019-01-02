@@ -27,7 +27,7 @@
   "autoload": {
     "psr-4": {
       "Entanet\\PubSubLaravel\\": "src/",
-      "Tests\\": "tests/"
+      "Entanet\\PubSubLaravel\\Tests\\": "tests/"
     }
   },
   "repositories": [

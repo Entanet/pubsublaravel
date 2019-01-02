@@ -14,7 +14,7 @@ namespace Tests;
 
 use ReflectionClass;
 
-class EntanetTestCase extends \Tests\TestCase
+class PubSubTestCase extends \Tests\TestCase
 {
     protected $pubSubMock;
     protected $pubSubInterfaceMock;
